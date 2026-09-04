@@ -25,9 +25,9 @@ Pour GitHub Pages, active **Settings → Pages → Deploy from a branch**, puis 
 ## Structure
 
 ```text
-index.html       Interface et écrans
-scripts/styles.css  Styles et thèmes
-scripts/app.js     Logique du jeu et sauvegarde locale
+index.html      Interface, écrans et CSS intégré
+styles.css      Copie du CSS source
+app.js          Logique du jeu et sauvegarde locale
 ```
 
 Les achats et les connexions sociales sont des simulations côté navigateur. Une version production devra utiliser un serveur, une authentification réelle et un prestataire de paiement.
